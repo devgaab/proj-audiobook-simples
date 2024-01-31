@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../images/green-background.jpg) no-repeat center/cover fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #212121;
+  font-family: 'Roboto Slab', serif;
+}
+
+.container-aplicativo {
+  background-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 0.8rem;
+  box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.5)
+}
+
+button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#capa {
+  width: 80%;
+  margin-top: 1.25rem;
+}
+
+#informacoes-faixa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+}
+
+#capitulo {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.6rem;
+}
+
+#nome-autor {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+#anterior,
+#proximo {
+  font-size: 3rem;
+}
+
+#play-pause {
+  font-size: 4rem;
+}
+
+#container-botoes {
+  color: #323232;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.1rem;
+}
